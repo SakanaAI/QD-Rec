@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+.env
+archives/
+logs/
+smoke/
+apps/*/data/*
+!apps/companies/data/universe_example.csv
+# the archive viewer's page template (the repository root ignores *.html)
+!shared/view_archive.html

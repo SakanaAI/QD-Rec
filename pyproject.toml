@@ -1,0 +1,18 @@
+[project]
+name = "qd-rec"
+version = "0.1.0"
+description = "QD-Rec: quality-diversity search for open-ended recommendation"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=2.9.0",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.2.1",
+    "datasets>=4.4.1",
+    "json-repair>=0.60.1",
+    "numpy>=2.2.6",
+    "requests>=2.33.1",
+    "httpx>=0.28.1",
+    "pyarrow>=24.0.0",
+]
